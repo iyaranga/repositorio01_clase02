@@ -22,7 +22,8 @@ public class Venta {
         comision=(venta1+venta2+venta3)*0.10;
         sn=sm+comision;
         //salida
-        System.out.println("La comisón de la venta es:"+comision);
+        System.out.println("El nombre del Vendedor es:"+vendedor);
+        System.out.println("La comisión de la venta es:"+comision);
         System.out.println("El sueldo neto es:"+sn);
     }
 }
